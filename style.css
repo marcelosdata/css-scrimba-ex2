@@ -6,6 +6,7 @@
 body {
   font-size: 18px;
   font-family: 'Lato', sans-serif;
+  color: #2e354f;
 }
 
 .nav,.footer {
@@ -18,7 +19,7 @@ body {
 .foot-sub {
   width: 620px;
   margin: 0 auto;
-  padding: 30px 50px;
+  padding: 50px 0;
 }
 
 .nav {
@@ -40,6 +41,13 @@ h1 {
 h2 {
   font-size: 24px;
   padding-bottom: 10px;
+}
+
+h1,
+h2,
+strong {
+font-weight: 900;
+
 }
 
 .cont-img {
@@ -65,11 +73,26 @@ p {
   padding: 15px 30px;
   font-weight: bold;
   margin: 15px 15px 10px 0px;
+  cursor: pointer;
 }
 
 .btn-a a,
 .btn-b a {
   text-decoration:none;
+  ;
+}
+
+.btn-a:hover,
+.btn-a:focus {
+  background: darkcyan;
+  transition: 1s;
+}
+
+.btn-b:hover,
+.btn-b:focus {
+  background: darkgoldenrod;
+  transition: 1s ease-in;
+  color: aliceblue;
 }
 
 
